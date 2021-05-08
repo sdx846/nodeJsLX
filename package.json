@@ -1,0 +1,34 @@
+{
+  "name": "nodelx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./03-http/axios.js & node ./03-http/http.js",
+    "start2": "node ./03-http/axios.js && node ./03-http/http.js",
+    "start3": "node ./05-npm-script/index.js",
+    "build": "echo $npm_package_config_env"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "mysql": "^2.18.1"
+  },
+  "config": {
+    "env": "production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdx846/nodeJsLX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdx846/nodeJsLX/issues"
+  },
+  "homepage": "https://github.com/sdx846/nodeJsLX#readme"
+}
